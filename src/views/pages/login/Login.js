@@ -1,5 +1,8 @@
 import React from 'react'
-import { Link, Navigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+// const DefaultLayout = React.lazy(() => import('../../../layout/DefaultLayout'))
+// const navigate = useNavigate();
+
 import {
   CButton,
   CCard,
@@ -17,9 +20,14 @@ import CIcon from '@coreui/icons-react'
 import { cilLockLocked, cilUser } from '@coreui/icons'
 import { element } from 'prop-types'
 import Dashboard from '../../dashboard/Dashboard'
-//  const navigator =useNavigate();
+//  const navigate =useNavigate();
+
+//  const toDashboardRedirectFunction = async= ()=>{
+//   navigate('/dashboard');
+//  }
 
 const Login = () => {
+
   return (
     <div className="bg-body-tertiary min-vh-100 d-flex flex-row align-items-center">
       <CContainer>
@@ -49,7 +57,7 @@ const Login = () => {
                     </CInputGroup>
                     <CRow>
                       <CCol xs={6}>
-                        <CButton color="primary" className="px-4" onClick={() => { Dashboard }}>
+                        <CButton color="primary" className="px-4" onClick={() => { toDashboardRedirectFunction }}>
                           Login
                         </CButton>
                       </CCol>
