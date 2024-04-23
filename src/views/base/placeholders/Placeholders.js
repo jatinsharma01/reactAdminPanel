@@ -44,7 +44,7 @@ const Placeholders = () => {
                     </CButton>
                   </CCardBody>
                 </CCard>
-                <CCard style={{ width: '18rem' }}>
+                {/* <CCard style={{ width: '18rem' }}>
                   <CCardImage
                     component="svg"
                     orientation="top"
@@ -79,7 +79,7 @@ const Placeholders = () => {
                       xs={6}
                     ></CPlaceholder>
                   </CCardBody>
-                </CCard>
+                </CCard> */}
               </div>
             </DocsExample>
           </CCardBody>
