@@ -34,6 +34,18 @@ const _nav = [
   },
   {
     component: CNavItem,
+    name: 'Horoscope',
+    to: '/Menu/Horoscope',
+    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Transactions',
+    to: '/Menu/Transactions',
+    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
     name: 'Login',
     to: '/Menu/login',
     icon: <CIcon icon={cilUser} customClassName="nav-icon" />,

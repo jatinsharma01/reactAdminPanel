@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Typography = () => {
+const Transaction = () => {
+    const testFnc = ()=>{
+        console.log("transaction")
+    }
+    testFnc()
   // Sample user data
-  const testFnc = ()=>{
-    console.log("transaction")
-}
-testFnc()
   const users = [
     { name: 'John Doe', mobile: '+123456789', email: 'john@example.com'},
     { name: 'Jane Smith', mobile: '+987654321', email: 'jane@example.com',},
@@ -58,4 +58,4 @@ testFnc()
   );
 };
 
-export default Typography;
+export default Transaction;
